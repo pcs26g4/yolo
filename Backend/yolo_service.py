@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import List, Tuple, Optional
 
 # Add YOLOv5 to path
-YOLO_ROOT = Path(__file__).parent.parent.parent / "yolov_5" / "yolov5"
+YOLO_ROOT = Path(__file__).parent.parent / "yolov_5" / "yolov5"
 YOLO_ROOT = YOLO_ROOT.resolve()
 
 # Lazy imports - only import when actually needed
