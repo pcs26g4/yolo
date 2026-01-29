@@ -37,7 +37,7 @@ async def startup_event():
 # -------------------------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],      # For DEV only — tighten in PROD
+    allow_origins=["https://civilsight.vercel.app"],      # For DEV only — tighten in PROD
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
